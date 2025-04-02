@@ -14,7 +14,7 @@ int main()
     cin>>s;
 
     //precompute
-    int hash[26]={0}; // considering the case to inly use lowercase letter otherwise, array of 256 can be declared
+    int hash[26]={0}; // considering the case to only use lowercase letter otherwise, array of 256 can be declared
     for (int i = 0; i < s.size(); i++)
     {
         hash[s[i]-'a']++;  //'a' denote ascii of lower case a
